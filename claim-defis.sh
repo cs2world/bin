@@ -8,5 +8,5 @@
 ##
 ##################################################
 unlock.sh poolfordefis
-cleos $MU push transaction '{"delay_sec":0,"actions":[{"account":"miningpool11","name":"claim","data":{"mid":39,"user":"poolfordefis"},"authorization":[{"actor":"poolfordefis","permission":"active"}]}]}'
+cleos $M push transaction '{"delay_sec":0,"actions":[{"account":"miningpool11","name":"claim","data":{"mid":39,"user":"poolfordefis"},"authorization":[{"actor":"poolfordefis","permission":"active"}]}]}'
 ##################################################
